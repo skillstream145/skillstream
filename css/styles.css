@@ -1,0 +1,188 @@
+
+
+.header {
+    background-color: black;
+}
+
+body {
+    padding-right: 10px;
+    font-family: "Montserrat";
+    color: #000;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.montserrat-regular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.title-h1 {
+    color: #000;
+    font-size: 3rem;
+    padding-top: 20%;
+    padding-left: 10%;
+    padding-right: 1%;
+}
+
+.title-section {
+    height: 90vh;
+}
+
+
+.title-section-image {
+    width: 90%;
+    margin-left: 15%;
+    border-radius: 50%;
+    
+}
+
+hr {
+    color:  #8C52FF;
+    position: relative;
+    border: none;
+    height: 2px;
+    background: #8C52FF;
+    top: 10px;
+}
+
+
+.dm-sans-regular {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+.padding-left {
+    padding-left: 30px;
+}
+
+.nav-item {
+    padding: 0px 10px;
+    color: #000;
+}
+
+.navbar {
+    padding: 15px 10px;
+    --bs-navbar-color:black;
+    --bs-navbar-hover-color: #8C52FF;
+    
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.featured {
+    display: flex;
+}
+
+.card-deck {
+    padding: 2rem;
+    border: 1;
+}
+
+.featured-heading {
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.card-img-top {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: auto;
+}
+
+.featured-card {
+  height: 14rem;
+}
+
+
+.card-title {
+    padding: 1rem 0;
+}
+
+.card-button {
+    width: 100%;
+    background-color: #8C52FF;
+
+}
+
+
+@media (max-width: 768px) {
+    .title-section {
+        height: 120vh;
+    }
+
+    .testimonial-container {
+      padding: 1rem 1rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .title-section {
+        height: 80vh;
+    }
+
+    .testimonial-container {
+      padding: 1rem 4rem;
+    }
+}
+
+/* Testimonial Section */
+
+
+.testimonial-heading {
+  padding-top: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+
+}
+
+.testimonial{
+  border: 0;
+  width: auto;
+  height: auto;
+}
+
+.testimonial-container {
+  height: auto;
+  background-color: #8C52FF;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-img {
+  margin-top: 15px;
+  align-self: center;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center ;
+  border-radius: 100%;
+}
+  
+.testimonial-card-title {
+  padding: 0;
+}
+
+.testimonial-card-text{
+  padding-top: 0.5rem;
+}
+
+/* Footer Section */
+
+.footer {
+  height: auto;
+  margin-top: 2.5rem;
+}
